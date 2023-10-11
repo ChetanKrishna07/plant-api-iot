@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const plantDataSchema = new mongoose.Schema({
     moisture: String,
-    waterLevel: Number,
+    waterLevel: String,
     postTime: {
         type: Date,
         immutable: true,
